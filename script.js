@@ -1,10 +1,10 @@
 function shortcut(s1, s2) {
-  if (str1 === '' || str2 === '') {
+  if (s1 === '' || s2 === '') {
     return '';
   }
   
   // Get the initial letters of the strings
-  const initialLetters = str1.charAt(0) + str2.charAt(0);
+  const initialLetters = s1.charAt(0) + s2.charAt(0);
   
   return initialLetters;
 }
